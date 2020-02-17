@@ -10,7 +10,7 @@
 - git clone project
 - on your terminal run code . or atom . reapectively to run the project in vs
 ###### Live link
-https://github.com/Alexmaithya/Akan-names.git
+https://alexmaithya.github.io/Akan-names/
 ###### technology used
 - javascript
 - html
