@@ -8,7 +8,7 @@
 - This is a website that gives you a name from the Akan name from a Ghanian culture.The website will give you a name according to the day you were born.
 ##### Setup/installation
 - git clone project
-- on your terminal run code . or atom . reapectively to run the project in vs
+- on your terminal run code . or atom . respectively to run the project in visual studio
 ###### Live link
 https://alexmaithya.github.io/Akan-names/
 ###### technology used

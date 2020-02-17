@@ -29,24 +29,24 @@
             </div>
         </div>
     <div class="col-sm-6"></div>
-    <form>
-        <label for="CC">CENTURY</label><br>
-        <input type="text" id="CC" name="CC"><br>
-        <label for="YY" id="YY">YEAR</label><br>
-        <input type="text" id="YY" name="YY"><br>
-        <label for="MM">MONTH(Enter the number of the month)</label><br>
-        <input type="text" id="MM" name="MM"><br>
-        <label for="DD">DAY</label><br>
-        <input type="text" x`id="DD" name="DD"><br>
+
+    <form onsubmit="return false">
+        <label>YEAR</label><br>
+        <input type="text" id="yy" name="YEAR"><br>
+        <label >MONTH(Enter the number of the month)</label><br>
+        <input type="text" id="mm" name="MONTH"><br>
+        <label >DAY</label><br>
+        <input type="text" id="dd" name="DAY"><br>
         <label for="fname">FIRSTNAME</label><br>
         <input type="text" id="fname" name="fname"><br>
         <input type="radio" id="male" name="gender" value="male">
         <label for="Male">MALE</label><br>
         <input type="radio" id="female" name="gender" value="female">
         <label for="Female">FEMALE</label><br>
-        <input type="submit">
+        <input type="submit" value="submit" onclick="getAkanNames()">
     </form>    
  </div>
+ <script src="day.js"></script>
 </body>
-<script src="day.js"></script>
+
 </html>
