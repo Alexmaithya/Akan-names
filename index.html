@@ -5,13 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Akan names</title>
+    <link href="bootstrap.min.css" rel="stylesheet" type="text/css" media="all"/>
     <link href="styles.css" rel="stylesheet"/>
 </head>
 <body>
+    <h1>AKAN NAME GENERATOR</h1>
     <div class="container">
-        <div class="row">
-            <div class="col-md-6">
-    <h1>AKAN NAMES</h1>
+        <div class="jumbotron">
+            <div class="row">
+                <div class="col-sm-6"></div>
     <p>
         This is a website that takes your birthday as a user
         and calculates the day of the week you were born and 
@@ -21,12 +23,30 @@
         </b> are usually given their first name in correspondance 
         to the <i>day of the week</i> they were born hence they are 
         usually called <i>day names</i>.
-        Jst fill the form below inorder to get your Akan name.
+        Just fill the form below inorder to get your Akan name.<img src="https://bit.ly/2UPF2rC" class ="image" height="200px">
     </p>
-    <img src="https://bit.ly/2vtdYnC" class="image " height="200px">
+    <img src="https://bit.ly/2vtdYnC" class="image " height="200px" width="500px">
             </div>
         </div>
-    </div>
-
+    <div class="col-sm-6"></div>
+    <form>
+        <label for="CC">CENTURY</label><br>
+        <input type="text" id="CC" name="CC"><br>
+        <label for="YY" id="YY">YEAR</label><br>
+        <input type="text" id="YY" name="YY"><br>
+        <label for="MM">MONTH(Enter the number of the month)</label><br>
+        <input type="text" id="MM" name="MM"><br>
+        <label for="DD">DAY</label><br>
+        <input type="text" x`id="DD" name="DD"><br>
+        <label for="fname">FIRSTNAME</label><br>
+        <input type="text" id="fname" name="fname"><br>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="Male">MALE</label><br>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="Female">FEMALE</label><br>
+        <input type="submit">
+    </form>    
+ </div>
 </body>
+<script src="day.js"></script>
 </html>
