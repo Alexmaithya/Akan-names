@@ -18,6 +18,7 @@ else if (month <= 0 || month > 12 || month == 2 && day > 29)
     alert("invalid option please enter a valid date");
 
     var day = new Date(year + "/" + month + "/" + day);
+    
     var birthDay=day.getDay();
 
 
